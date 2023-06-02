@@ -1,6 +1,6 @@
 /// <reference types= "Cypress" />
 
-describe("Alias and Invoke", () => {
+describe("Alias and invoke", () => {
     it("Validate the thumbnail and add to cart icon", () => {
         cy.visit("https://automationteststore.com/")
         cy.get('.thumbnail').as('thumbNail')
